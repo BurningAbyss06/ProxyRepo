@@ -9,4 +9,5 @@ type Decklist struct {
 	Top        int16
 	Comentario string
 	DeckId     uint
+	Imagen     []byte `gorm:"type:bytea"`
 }
